@@ -21,10 +21,10 @@ shoeList.Add("Adidas");
 shoeList.Add("New Balance");
 foreach (string shoe in shoeList)
 {
-    Console.WriteLine(shoe);
+    // Console.WriteLine(shoe);
 }
 // Does this work?
-Console.WriteLine(shoeList.ToString());
+// Console.WriteLine(shoeList.ToString());
 // Nope. Too complicated.
 
 // Classes
@@ -40,7 +40,7 @@ Console.WriteLine(shoeList.ToString());
 // caps generally indicate a class (ie. data type)
 Food myZa = new Food();
 // 'new' indicates a NEW instance (object) of the specified class.
-Console.WriteLine($"My lunch is: {myZa.kind}");
+// Console.WriteLine($"My lunch is: {myZa.kind}");
 
 Pizza pepperoni = new Pizza();
 
@@ -48,15 +48,15 @@ pepperoni.Cook();
 
 Food yourZa = new Food();
 // yourZa as written will be Pizza.
-Console.WriteLine($"Your {yourZa.kind} has {yourZa.remaining} percent left.");
+// Console.WriteLine($"Your {yourZa.kind} has {yourZa.remaining} percent left.");
 
-Console.WriteLine($"My za is at temp of {myZa.GetTemp()}");
-myZa.Cook();
-Console.WriteLine($"My za is at temp of {myZa.GetTemp()}");
-myZa.Cook();
-Console.WriteLine($"My za is at temp of {myZa.GetTemp()}");
-myZa.Cook();
-Console.WriteLine($"Pepperoni is at temp of {pepperoni.GetTemp()}");
-pepperoni.Cook();
-Console.WriteLine($"Pepperoni is at temp of {pepperoni.GetTemp()}");
-pepperoni.Cook();
+// Console.WriteLine($"My za is at temp of {myZa.GetTemp()}");
+// myZa.Cook();
+// Console.WriteLine($"My za is at temp of {myZa.GetTemp()}");
+// myZa.Cook();
+// Console.WriteLine($"My za is at temp of {myZa.GetTemp()}");
+// myZa.Cook();
+// Console.WriteLine($"Pepperoni is at temp of {pepperoni.GetTemp()}");
+// pepperoni.Cook();
+// Console.WriteLine($"Pepperoni is at temp of {pepperoni.GetTemp()}");
+// pepperoni.Cook();
